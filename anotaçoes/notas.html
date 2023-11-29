@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Adicionar nota ou lembrete</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body id="bodydonotas">
+<p></p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="inicio">
+          Cadastro de Notas
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <form role="form">
+          <div class="form-group">
+            
+            <label for="data">
+              Data
+            </label>
+            <input type="date" class="form-control" id="data" />
+          </div>
+          <div class="form-group">
+             
+            <label for="inputTitulo">
+              Título
+            </label>
+            <input type="text" class="form-control" id="inputTitulo" />
+          </div>
+          <div class="form-group">
+             
+            <label for="exampleInputPassword1">
+              Descrição
+            </label>
+            <textarea type="text" class="form-control" id="descriçao" ></textarea>
+          </div>
+            <label>
+              Status
+            </label><br>
+            <input class="status">
+            <br><br>
+          <button type="submit" class="salvar">
+            Salvar
+          </button>
+        </form>
+      </div>
+      <div class="col-md-8">
+        <div class="table mx-90 w-100">
+        <table class="table border-tabela">
+          <thead class="thead">
+            <tr>
+              <th>
+                Data
+              </th>
+              <th>
+                Título
+              </th>
+              <th class="mw-60">
+                Descrição
+              </th>
+              <th>
+                Status
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="notas.js"></script>
+</body>
+</html>

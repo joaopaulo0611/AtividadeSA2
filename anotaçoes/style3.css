@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+div{
+    width: 90%;
+}
+.desc{
+    width: 250px;
+    display: inline-block;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+}
+.table td {
+    max-width: 200px; /* Ajuste conforme necessário */
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+}
+#bodydonotas{
+    background-color: #E1A74A;
+    font-family: 'League Spartan', sans-serif;
+}
+.border-tabela{
+    border: black 3px solid;
+}
+#inputTitulo{
+    color: black;
+    background-color: #3BBFB2;
+    border: 0;
+    border-radius: 5px;
+}
+#inputTitulo:focus{
+    color: black;
+    background-color: #3BBFB2;
+    border: 0;
+    border-radius: 5px;
+}
+#data{
+    color: black;
+    background-color: #3BBFB2;
+    width: 200px;
+    border: 0;
+    border-radius: 5px;
+}
+.status{
+    color: black;
+    background-color: #3BBFB2;
+    border: 0;
+    border-radius: 5px;
+}
+#descriçao{
+    border: 0;
+    border-radius: 5px;
+    background-color: #3BBFB2;
+    color: black;
+}
+.thead{
+    color: white;
+    background-color: black;
+}
+.btn-primary{
+    background-color: #177582;
+}
+#inicio{
+    color: white;
+}
+.salvar{
+    color: black;
+    background-color: #177582;
+    width: 120px;
+    border: 0;
+    height: 40px;
+    border-radius: 10px;
+}
